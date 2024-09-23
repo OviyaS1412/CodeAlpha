@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+    background-color: whitesmoke;
+}
+
+.Logo {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 40%;
+}
+
+.h1 {
+    padding-left: 40%;
+    display: inline-flex;
+    text-align: center;
+}
+
+.img1 img {
+    height: 7%;
+    width: 7%;
+    border-radius: 5px;
+    padding-right: 90%;
+}
+.h22 {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.h22 h2 {
+    padding-top: 2%;
+    padding-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; 
+}
+.gallery1 {
+    display: flex; 
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.gallery1 img:hover {
+    transform: scale(1.1);
+}
